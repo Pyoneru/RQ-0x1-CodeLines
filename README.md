@@ -7,7 +7,7 @@ ______ _____         ______       _____                 _
 \_| \_\____/\___\___/|___/ \___|  \_/\_\\__,_|\___||___/\__|
 ```
 
-# 0x1 CODE LINES
+# FINAL 0x1 CODE LINES
 
 > Counting lines of code in any language is not as easy as it looks at a first glance. Consider different indentation (whitespaces or tabulators), line or block comments and line breaks specific to given platform. For instance, the following should return 3 lines of code (one for function opening body, second one for the Console method call and the last one for the curly brace closing function's body):
 > 
@@ -25,13 +25,13 @@ ______ _____         ______       _____                 _
 
 Create an utility which counts lines of source code of your favourite language or a generic one. Consider all the mentioned stuff, summaries, stream-based block comments and nested comments. Does your approach work with every single possibility (you don't have to answer, try thinking about it)?
 
-## RULES
+## How to run ? 
+```
+Compliation with g++
+Linux: g++ -std=c++17 -o codelines codelines.cpp
+Windows: g++ -std=c++17 -o codelines.exe codelines.cpp
 
-1. You can work alone or collaborate in a team.
-2. Be honest. Try not to copy-paste other's solutions or chunks of libraries.
-3. You are working on your own EXP aka portfolio.
-4. You can use any technologies :)
-
-## SOLUTIONS
-
-Assuming you want to be listed here, you need to supply your solution until 06.03.2021 18:00 CET and comply with [regulations](https://github.com/recode-quest/REGULATIONS).
+Run:
+Linux: ./codelines PATH_TO_GD_SCRIPT
+Windows: ./codelines PATH_TO_GD_SCRIPT
+```
